@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePiece.Infrastructure", "OnePiece.Infrastructure\OnePiece.Infrastructure.csproj", "{16337E71-B287-4C63-8993-FBC9AB9F845E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSTest", "MSTest", "{34F42650-E4FB-4DAD-AF83-DF729FB21727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePiece.Infrastructure.MSTest", "OnePiece.Infrastructure.MSTest\OnePiece.Infrastructure.MSTest.csproj", "{0D6FC0F0-1471-4973-A50C-3F2C6317D046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16337E71-B287-4C63-8993-FBC9AB9F845E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16337E71-B287-4C63-8993-FBC9AB9F845E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16337E71-B287-4C63-8993-FBC9AB9F845E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16337E71-B287-4C63-8993-FBC9AB9F845E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6FC0F0-1471-4973-A50C-3F2C6317D046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6FC0F0-1471-4973-A50C-3F2C6317D046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6FC0F0-1471-4973-A50C-3F2C6317D046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6FC0F0-1471-4973-A50C-3F2C6317D046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D6FC0F0-1471-4973-A50C-3F2C6317D046} = {34F42650-E4FB-4DAD-AF83-DF729FB21727}
+	EndGlobalSection
+EndGlobal
